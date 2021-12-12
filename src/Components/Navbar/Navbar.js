@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Menuitems } from '../Menuitems'
-import { FaChevronRight, FaAlignJustify } from 'react-icons/fa'
 import './Navbar.css'
 
 
