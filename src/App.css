@@ -8,14 +8,6 @@ body{
   font-family: "Open Sans", sans-serif;  
   color: aliceblue;
 }
-
-.box {
-	position: fixed;
-	top: 0;
-	transform: rotate(80deg);
-	left: 0;
-}
-
 .wave {
 	position: fixed;
 	top: 0;
