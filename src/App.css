@@ -1,10 +1,66 @@
 
 
-body {
-  height: 100%
- 
-  overflow: hidden
-  font-family: "Open Sans", sans-serif;
+body{
+  
+  height: 100%;
+	background-color: #0f161d;
+	overflow-x:hidden;
+	overflow-y:hidden;
+  color: aliceblue;
+  font-family: "Open Sans", sans-serif;  
   color: aliceblue;
 }
 
+.box {
+	position: fixed;
+	top: 0;
+	transform: rotate(80deg);
+	left: 0;
+}
+
+.wave {
+	position: fixed;
+	top: 0;
+	left: 0;
+  opacity: .4;
+  position: absolute;
+  top: 3%;
+  left: 10%;
+  background: rgb(62, 73, 78);
+  width: 550px;
+  height: 530px;
+  transform-origin: 50% 48%;
+  align-items: center;
+  margin-left: 300px;
+  border-radius: 43%;
+  animation: drift 7000ms infinite linear;
+}
+
+.wave.-three {
+  animation: drift 7500ms infinite linear;
+	position: fixed;
+	background-color: #3a4b52;
+}
+
+.wave.-two {
+  animation: drift 3000ms infinite linear;
+  opacity: .1;
+  background: black;
+	position: fixed;
+}
+
+.box:after {
+  content: '';
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes drift {
+    from { transform: rotate(0deg); }
+    from { transform: rotate(360deg); }
+  }
