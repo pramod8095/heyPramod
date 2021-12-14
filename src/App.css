@@ -9,9 +9,6 @@ body{
   color: aliceblue;
 }
 .wave {
-	position: fixed;
-	top: 0;
-	left: 0;
   opacity: .4;
   position: absolute;
   top: 3%;
