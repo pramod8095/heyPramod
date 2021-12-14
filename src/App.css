@@ -1,7 +1,6 @@
 
 
-body{
-  
+body{  
   height: 100%;
   background-color: #0f161d;
   color: aliceblue;
@@ -10,6 +9,7 @@ body{
 }
 .wave {
   opacity: .4;
+  margin-top: 150px;
   position: absolute;
   top: 3%;
   left: 10%;
@@ -25,7 +25,6 @@ body{
 
 .wave.-three {
   animation: drift 7500ms infinite linear;
-	position: fixed;
 	background-color: #3a4b52;
 }
 
