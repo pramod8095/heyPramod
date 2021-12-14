@@ -24,6 +24,7 @@ a {
 img {
   margin-left: -100px;
   height: auto;
+  opacity:1;
 }
 .intro {
   color: aliceblue;
