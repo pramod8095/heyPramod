@@ -50,3 +50,10 @@ body{
     from { transform: rotate(0deg); }
     from { transform: rotate(360deg); }
   }
+
+@media screen and (max-width: 460px){
+	.wave{
+	   display:none;	
+	}
+	
+}
